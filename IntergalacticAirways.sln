@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntergalacticAirways", "IntergalacticAirways\IntergalacticAirways.csproj", "{0A548E34-523A-445C-BF93-E45B31567AFC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{64FA6A89-9042-42A7-A331-A8D6FBC79340} = {64FA6A89-9042-42A7-A331-A8D6FBC79340}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTrooper", "SharpTrooper\SharpTrooper.csproj", "{64FA6A89-9042-42A7-A331-A8D6FBC79340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A548E34-523A-445C-BF93-E45B31567AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A548E34-523A-445C-BF93-E45B31567AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A548E34-523A-445C-BF93-E45B31567AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A548E34-523A-445C-BF93-E45B31567AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FA6A89-9042-42A7-A331-A8D6FBC79340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FA6A89-9042-42A7-A331-A8D6FBC79340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FA6A89-9042-42A7-A331-A8D6FBC79340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FA6A89-9042-42A7-A331-A8D6FBC79340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD1FB028-AAC3-48AE-8C99-CC18A2E3C19C}
+	EndGlobalSection
+EndGlobal
